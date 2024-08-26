@@ -9,4 +9,4 @@ def list_files(directory, n=0):
             print("  "*n + ("└── " if i == list[-1] else "├── ") + str(i))
             list_files(directory + str(i) + "/", n+1)
             
-list_files("C:/Users/serba/OneDrive/Desktop/SEBI Sekundar/IMS/")
+list_files("[your PATH]")
